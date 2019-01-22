@@ -66,5 +66,5 @@ The  **process_radtags**  program can be modified in several ways. If your data 
 
 There is additional information available in [**process_radtags**  manual page](http://catchenlab.life.illinois.edu/stacks/comp/process_radtags.php).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0MTA1MDQ1OCwtMTkwMDcxNDEzNl19
+eyJoaXN0b3J5IjpbMTQ0MTA1MDQ1OF19
 -->
