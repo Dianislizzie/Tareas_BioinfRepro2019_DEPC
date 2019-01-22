@@ -64,8 +64,8 @@ The  **process_radtags**  program wants to keep the reads in  _phase_, so that t
 
 The  **process_radtags**  program can be modified in several ways. If your data do not have barcodes, omit the barcodes file and the program will not try to demultiplex the data. You can also disable the checking of the restriction enzyme cut site, or modify what types of quality are checked for. So, the program can be modified to only demultiplex and not clean, clean but not demultiplex, or some combination.
 
-There is additional information available in [**process_radtags**  manual page](https://github.com/Dianislizzie/Tareas_BioinfRepro2019_DEPC)
+There is additional information available in [**process_radtags**  manual page](http://catchenlab.life.illinois.edu/stacks/comp/process_radtags.php).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3MzcwNDc0LDE4OTAyNTM2MTAsLTE5Mz
-E1MjgxMDRdfQ==
+eyJoaXN0b3J5IjpbMTg5MDI1MzYxMCwxODkwMjUzNjEwLC0xOT
+MxNTI4MTA0XX0=
 -->
