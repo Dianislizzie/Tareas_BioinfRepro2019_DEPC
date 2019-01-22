@@ -1,5 +1,5 @@
 
-**4.1.3 Running process_radtags**
+#### 4.1.3 Running process_radtags 
 
 Here is how single-end data received from an Illumina sequencer might look:
 
@@ -66,6 +66,5 @@ The  **process_radtags**  program can be modified in several ways. If your data 
 
 There is additional information available in [**process_radtags**  manual page](http://catchenlab.life.illinois.edu/stacks/comp/process_radtags.php).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzEzNjY4MjQsLTE5MzE1MjgxMDRdfQ
-==
+eyJoaXN0b3J5IjpbMTg5MDI1MzYxMCwtMTkzMTUyODEwNF19
 -->
