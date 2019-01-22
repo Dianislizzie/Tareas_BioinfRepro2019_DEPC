@@ -53,7 +53,9 @@ The output of the  **process_radtags** differs depending if you are processing s
 If you are processing  _paired-end reads_, then you will get four files per barcode, two for the single-end read and two for the paired-end read. For example, given barcode ACTCG, you would see the following four files:
 
 ````
-sample_ACTCG.1.fq sample_ACTCG.rem.1.fq sample_ACTCG.2.fq sample_ACTCG.rem.2.fq
+sample_ACTCG.1.fq
+sample_ACTCG.rem.1.fq 
+sample_ACTCG.2.fq sample_ACTCG.rem.2.fq
 ````
 
 The  **process_radtags**  program wants to keep the reads in  _phase_, so that the first read in the  ```sample_XXX.1.fq```  file is the mate of the first read in the  ```sample_XXX.2.fq```  file. Likewise for the second pair of reads being the second record in each of the two files and so on. When one read in a pair is discarded due to low quality or a missing restriction enzyme cut site, the remaining read can't simply be output to the  ```sample_XXX.1.fq```  or  ```sample_XXX.2.fq```   files as it would cause the remaining reads to fall out of phase. Instead, this read is considered a  _remainder_  read and is output into the  ```sample_XXX.rem.1.fq```  file if the paired-end was discarded, or the  ```sample_XXX.rem.2.fq```  file if the single-end was discarded.
@@ -64,5 +66,5 @@ The  **process_radtags**  program can be modified in several ways. If your data 
 
 There is additional information available in [**process_radtags**  manual page](http://catchenlab.life.illinois.edu/stacks/comp/process_radtags.php).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDA3MTQxMzZdfQ==
+eyJoaXN0b3J5IjpbMTQ0MTA1MDQ1OCwtMTkwMDcxNDEzNl19
 -->
