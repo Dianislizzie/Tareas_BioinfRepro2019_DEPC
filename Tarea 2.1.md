@@ -3,8 +3,6 @@
 
 Here is how single-end data received from an Illumina sequencer might look:
 
-
-
 ```
 % ls ./raw
 lane3_NoIndex_L003_R1_001.fastq.gz lane3_NoIndex_L003_R1_006.fastq.gz lane3_NoIndex_L003_R1_011.fastq.gz 
@@ -66,6 +64,6 @@ The  **process_radtags**  program can be modified in several ways. If your data 
 
 There is additional information available in [**process_radtags**  manual page](http://catchenlab.life.illinois.edu/stacks/comp/process_radtags.php).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5MDI1MzYxMCwxODkwMjUzNjEwLC0xOT
+eyJoaXN0b3J5IjpbLTIxMDY2MzE2MiwxODkwMjUzNjEwLC0xOT
 MxNTI4MTA0XX0=
 -->
